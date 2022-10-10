@@ -7,12 +7,22 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="216dp"
+        android:layout_height="58dp"
+        android:text="accountHub"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="ENTRAR"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="471dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
