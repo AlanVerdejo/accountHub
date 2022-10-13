@@ -9,24 +9,17 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnEntrar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        btnEntrar=findViewById(R.id.buttonIn);
-
-        btnEntrar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent i = new Intent( packageContext: MainActivity.this, Loading.class);
-                startActivity(i);
-
-            }
-        });
     }
-
+    //metodo para cambiar de pagina
+    public void follow (View view)
+    {
+        Intent follow = new Intent(this, Loading.class);
+        startActivity(follow);
+    }
 }
