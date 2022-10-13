@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     //metodo para cambiar de pagina
     public void follow (View view)
     {
-        Intent follow = new Intent(this, Loading.class);
-        startActivity(follow);
+        Intent followUp = new Intent(this, Loading.class);
+        startActivity(followUp);
     }
 }
